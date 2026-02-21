@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Sutar | Java Developer | Technical Head @ Oyster Kode Club</title>
+    <meta name="description" content="Vaibhav Sutar - Passionate Java Developer & Technical Head at Oyster Kode Club. Frontend & Backend expertise. Available for opportunities.">
+    <meta property="og:title" content="Vaibhav Sutar | Java Developer Portfolio">
+    <meta property="og:description" content="Full-stack developer specializing in Java. Technical Head at Oyster Kode Club. Open to opportunities.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Vaibhav Sutar</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="hero-bg">
+            <div class="hero-shape hero-shape-1"></div>
+            <div class="hero-shape hero-shape-2"></div>
+            <div class="hero-shape hero-shape-3"></div>
+            <div class="hero-shape hero-shape-4"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container">
+            <div class="home-content">
+                <div class="left-content" data-aos="fade-right">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-glow"></div>
+                        <div class="profile-image">
+                            <img src="images/profile.jpg" alt="Vaibhav Sutar">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content" data-aos="fade-left">
+                    <span class="hero-badge"><i class="fas fa-bolt"></i> Open to Opportunities</span>
+                    <h1><span class="hero-name">VAIBHAV SUTAR</span></h1>
+                    <h3 class="hero-role"><i class="fas fa-code"></i> Oyster Kode Club — Technical Head</h3>
+                    <p class="title">
+                        I am <span class="typed-text" id="typedText"></span>
+                        <span class="typed-cursor">|</span>
+                    </p>
+                    <p class="hero-tagline">Building web applications. Passionate about clean code & problem-solving.</p>
+                    <div class="hero-cta">
+                        <a href="https://drive.google.com/file/d/13syHH_AjBtI8oYd0hGDJlGhHP_mdJUXi/view?usp=drivesdk" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Let's Connect
+                        </a>
+                      </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/vaibhav-sutar-737bb9287" class="social-icon" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/vsutar1010" class="social-icon" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_vs_1010_/?next=%2F" class="social-icon" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/917499578810" class="social-icon" aria-label="WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <p>Hello, I am Vaibhav Sutar Computer Engineering student with strong foundations in Java and object-oriented programming (OOP). Backend developer with experience contributing to 4+ academic and personal projects involving application logic, data handling. Familiar with Spring Framework concepts for building scalable and maintainable backend systems. Knowledge of core computer science fundamentals including data structures, databases and software design.</p>
+                    <a href="https://drive.google.com/file/d/13syHH_AjBtI8oYd0hGDJlGhHP_mdJUXi/view?usp=drivesdk" class="btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Education Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="year-tab" onclick="showEducation('btech')">
+                        <span class="year">2023 - 2027</span>
+                    </div>
+                    <div class="timeline-content" id="btech">
+                        <div class="education-card">
+                            <h3>Bachelor of Technology</h3>
+                            <h4>Rajarambapu Institute of Technology</h4>
+                            <p class="course">Computer Science Engineering</p>
+                            <p class="location">Rajaramnagar, Sangli</p>
+                            <p class="marks">CGPA: 8.20</p>
+                            <p class="status">Pursuing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="year-tab" onclick="showEducation('hsc')">
+                        <span class="year">2022 - 2023</span>
+                    </div>
+                    <div class="timeline-content" id="hsc">
+                        <div class="education-card">
+                            <h3>Higher Secondary Education (HSC)</h3>
+                            <h4>Junior College Of Arts, Commerce & Science, Rahimatpur</h4>
+                            <p class="course">Science Stream</p>
+                            <p class="location">Rahimatpur, Satara</p>
+                            <p class="marks">Percentage: 73%</p>
+                            <p class="status">Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="year-tab" onclick="showEducation('ssc')">
+                        <span class="year">2020 - 2021</span>
+                    </div>
+                    <div class="timeline-content" id="ssc">
+                        <div class="education-card">
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <h4>Dr. V.G.K.P High School, Rahimatpur</h4>
+                            <p class="course">General</p>
+                            <p class="location">Rahimatpur, Satara</p>
+                            <p class="marks">Percentage: 83%</p>
+                            <p class="status">Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-aos="zoom-in">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>HTML5</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>CSS3</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>C</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Java</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>SQL</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="350">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Node.js</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Development Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Git</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>GitHub</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>VS Code</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="550">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>IntelliJ IDEA</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+                            <div class="skill-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Dev C++</h3>
+                                <div class="skill-level">
+                                    <div class="progress-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <img src="images/fashionhub.png" alt="FashionHub">
+                    <div class="project-content">
+                        <h3>Fashion-Hub</h3>
+                        <div class="project-links">
+                            <a href="https://fashionhubsite1.netlify.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/ez.jpg" alt="EZ-Medico">
+                    <div class="project-content">
+                        <h3>EZ-Medico</h3>
+                        <div class="project-links">
+                            <a href="https://ezmedico.netlify.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/AK.png" alt="AK Tours And Travels">
+                    <div class="project-content">
+                        <h3>AK Tours & Travels</h3>
+                        <div class="project-links">
+                            <a href="https://www.aktoursandtravels.info/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Preview
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Let's Work Together</h2>
+            <p class="contact-subtitle" data-aos="fade-up">I'm open to internships, projects, and full-time opportunities. Let's connect!</p>
+            <div class="contact-wrapper">
+                <div class="contact-info-container">
+                    <div class="contact-card" data-aos="fade-up">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Address</h3>
+                            <p>Rahimatpur, Satara(415511) Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:vsutar1010@gmail.com">vsutar1010@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+917499578810">+91-7499578810</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta" data-aos="fade-up" data-aos-delay="300">
+                    <a href="mailto:vsutar1010@gmail.com?subject=Portfolio Inquiry" class="contact-btn contact-btn-primary">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://wa.me/917499578810" class="contact-btn contact-btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhav-sutar-737bb9287" class="contact-btn contact-btn-linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 Vaibhav Sutar. All Rights Reserved.</p>
+            <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 700,
+            once: true,
+            offset: 50
+        });
+    </script>
+</body>
+</html> 
