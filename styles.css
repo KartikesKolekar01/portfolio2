@@ -136,7 +136,7 @@ section h2 {
 section h2::after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: -4px;
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
@@ -427,7 +427,7 @@ section h2::after {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 30px;
+    bottom: 3px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
