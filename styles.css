@@ -15,6 +15,9 @@
     --background-light: #f0f7ff;
     --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.category-title {
+    text-align: center;
+}
 
 html {
     scroll-behavior: smooth;
@@ -1417,3 +1420,24 @@ footer {
         font-size: 14px;
     }
 } 
+.document-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.doc-btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.doc-btn:hover {
+    transform: translateY(-3px);
+}
